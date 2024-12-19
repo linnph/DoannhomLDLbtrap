@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/gioithieutour.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Mui Nghe Tour</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="./index.html">
+                <span class="red">L</span>
+                <span class="blue">D</span>
+                <span class="green">L</span>
+                <span class="orange">TRAVEL</span>
+            </a>
+
+            <!-- Toggle Menu trên mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gioithieu.html">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tour.html">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lienhe.html">Liên Hệ</a>
+                    </li>
+                </ul>
+
+                <!-- Tìm kiếm -->
+                <form class="d-flex ms-lg-3 mt-2 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="container my-3">
+        <div class="header-title">MŨI NGHÊ ĐÀ NẴNG</div>
+
+        <!-- Phan dau -->
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="main-image">
+                    <img src="./imgs/mui-nghe-1.jpg" alt="Mũi Nghê-Đà Nẵng">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="tour-info">
+                    <h4>Giới thiệu</h4>
+                    <p><strong>Địa chỉ:</strong> Thọ Quang, Sơn Trà, Đà Nẵng</p>
+                    <p><strong>Tỉnh:</strong> Đà Nẵng</p>
+                    <label for="transport">Di chuyển:</label>
+                    <select id="transport" class="form-select mb-3">
+                        <option value="car">Xe du lịch</option>
+                    </select>
+                    <label for="quantity">Số lượng người tối đa:</label>
+                    <input id="quantity" type="number" class="form-control mb-3" value="10" min="1">
+                    <h4 class="text-danger">GIÁ: 1,000,000 VNĐ</h4>
+                    <a href="./bookmuinghe.html"><button class="btn btn-primary btn-book">Đặt Tour</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <div class="section-title">1. Giới thiệu Mũi Nghê Đà Nẵng</div>
+        <p>
+            Địa điểm du lịch Đà Nẵng Mũi Nghê ở đâu? Mũi Nghê nằm ở phía đông của bán đảo Sơn Trà, một địa danh vô cùng nổi tiếng
+của Đà Nẵng. Mũi Nghê là một trong ba ngọn núi gắn liền với lịch sử hình thành bán đảo Sơn Trà. Sở dĩ được gọi tên là Mũi
+Nghê hay Hòn Nghê xuất phát từ việc hình thù của ngọn núi giống như một con sư tử biển nằm quay đầu vào núi đá, hướng
+thân ra biển.
+        </p>
+        <div class="content-image">
+            <img src="./imgs/muinghedanang.jpg" alt="Cảnh Mui Nghe">
+        </div>
+
+        <div class="section-title">2. Hướng dẫn đi Mũi Nghê Đà Nẵng</div>
+        <p>Có Hai Cách Đi Mũi Nghê Đà Nẵng</p>
+        <p>
+            <strong>-Đường Thủy:</strong> Đường thủy: lựa chọn di chuyển bằng đường thủy, bạn sẽ được thỏa thích ngắm cảnh núi Sơn Trà, nhưng ca nô không thể 
+            cập bến đến tận chân Mũi Nghê bởi địa hình chủ yếu là bãi đá nên bạn sẽ cần đi bộ thêm.
+        </p>
+        <p>
+            <strong>Đường Bộ:</strong> lựa chọn di chuyển đến Mũi Nghê Đà Nẵng bằng đường bộ rất được các phượt thủ yêu thích. Bạn có thể chạy xe
+            máy đi theo tuyến đường biển Võ Nguyên Giáp đi lên núi Sơn Trà, đến chùa Linh Ứng. Sau đó rẽ phải theo hướng lên cây đa
+            ngàn năm tới cùng đường, rẽ vào vào con đường mòn nhỏ dẫn vào rừng là sẽ đến Mũi Nghê.
+        </p>
+        <div class="content-image">
+            <img src="./imgs/maxresdefault.jpg" alt="">
+        </div>
+    </div>
+    <!-- Footer -->
+   <footer class="footer py-2">
+    <div class="container">
+        <h4 class="text-center fw-bold mb-4">LIÊN HỆ</h4>
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <p><i class="bi bi-envelope me-2"></i> ldltravel@gmail.com</p>
+                <p><i class="bi bi-geo-alt me-2"></i> 55 Nguyễn Sơn, Phường Trung Đô, Thành Phố Vinh, Nghệ An</p>
+                <p><i class="bi bi-telephone me-2"></i> (+84) 388448611</p>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="mb-2">Copyright ©LDLTravel 2024. All rights reserved</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="bi bi-youtube fs-4"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-tiktok fs-4"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Link JS Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
