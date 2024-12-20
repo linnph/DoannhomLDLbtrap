@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tour.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Gioi thieu</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="./index.html">
+                <span class="red">L</span>
+                <span class="blue">D</span>
+                <span class="green">L</span>
+                <span class="orange">TRAVEL</span>
+            </a>
+
+            <!-- Toggle Menu trên mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gioithieu.html">Giới Thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tour.html">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./lienhe.html">Liên Hệ</a>
+                    </li>
+                </ul>
+
+                <!-- Tìm kiếm -->
+                <form class="d-flex ms-lg-3 mt-2 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="container py-5">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-lg-3 col-md-4 mb-4">
+            <p class="category-title">Product Category</p>
+            <ul class="category-menu">
+              <li><a href="#" class="active">All</a></li>
+              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/mienbac.html">Miền Bắc</a></li>
+              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/mientrung.html">Miền Trung</a></li>
+              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/miennam.html">Miền Nam</a></li>
+            </ul>
+            <hr>
+          </div>
+    
+          <!-- Main Content -->
+          <div class="col-lg-9 col-md-8">
+            <!-- Filters -->
+            <div class="filters d-flex justify-content-between">
+              <select class="form-select form-select-sm" style="width: auto;">
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+              </select>
+              <select class="form-select form-select-sm" style="width: auto;">
+                <option>Show</option>
+                <option>4</option>
+                <option>8</option>
+              </select>
+            </div>
+    
+            <!-- Thanh Phan -->
+            <div class="row mt-4">
+              <!-- Mui Nghe-->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/mui-nghe-1.jpg" alt="Mũi Nghê Đà Nẵng">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <a href="./muinghetour.html" style="text-decoration: none; color: black;"><p class="product-name">Mũi Nghê Đà Nẵng</p></a>
+                    <p class="product-price">1,000,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+    
+              <!--Nha Trang -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/daonhatrang2.jpg" alt="Tour 4 Đảo Nha Trang">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <a href="./daonhatrangtour.html" style="text-decoration: none; color: black;"<p class="product-name">Tour 4 Đảo Nha Trang</p></a>
+                    <p class="product-price">1,000,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Ba na HIll -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/banahills-hoian-danang.jpg" alt="Ba Na Hills - Hội An">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <p class="product-name">Ba Na Hills - Hội An</p>
+                    <p class="product-price">10,000,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Tam Coc-->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/du-lich-tam-coc-bich-dong.jpg" alt="Khu du lịch Tam Cốc – Bích Động">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <a href="./tamcoctour.html" style="text-decoration: none; color: black;"<p class="product-name">Khu du lịch Tam Cốc – Bích Động</p></a>
+                    <p class="product-price">1,000,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Product Card 5 -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/vinh-ha-long-quan-dao-cat-ba-29121.jpg" alt="Vịnh Hạ Long - Cát Bà">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <p class="product-name">Khu du lịch Vịnh Hạ Long - Cát Bà</p>
+                    <p class="product-price">2,000,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- Product Card 6 -->
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="product-card position-relative">
+                  <img src="./imgs/khudulichsinhthaicondao.jpg" alt="Khu du lịch Côn Đảo">
+                  <span class="hot-tag">HOT</span>
+                  <div class="p-3">
+                    <p class="product-name">Khu du lịch Côn Đảo</p>
+                    <p class="product-price">1,900,000 VNĐ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+     <!-- Footer -->
+   <footer class="footer py-2">
+    <div class="container">
+        <h4 class="text-center fw-bold mb-4">LIÊN HỆ</h4>
+        <div class="row justify-content-between">
+            <div class="col-md-6">
+                <p><i class="bi bi-envelope me-2"></i> ldltravel@gmail.com</p>
+                <p><i class="bi bi-geo-alt me-2"></i> 55 Nguyễn Sơn, Phường Trung Đô, Thành Phố Vinh, Nghệ An</p>
+                <p><i class="bi bi-telephone me-2"></i> (+84) 388448611</p>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="mb-2">Copyright ©LDLTravel 2024. All rights reserved</p>
+            <div>
+                <a href="#" class="text-white me-3"><i class="bi bi-youtube fs-4"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-tiktok fs-4"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Link JS Bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
