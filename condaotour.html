@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/tour.css">
+    <link rel="stylesheet" href="./css/gioithieutour.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <title>Gioi thieu</title>
+    <title>Lien He</title>
 </head>
+
 <body>
-    
     <header class="navbar navbar-expand-lg bg-light shadow-sm">
         <div class="container">
-       
             <a class="navbar-brand logo" href="./index.html">
                 <span class="red">L</span>
                 <span class="blue">D</span>
@@ -21,8 +21,8 @@
                 <span class="orange">TRAVEL</span>
             </a>
 
-         
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -42,7 +42,6 @@
                     </li>
                 </ul>
 
-         
                 <form class="d-flex ms-lg-3 mt-2 mt-lg-0" role="search">
                     <input class="form-control me-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">
@@ -52,68 +51,58 @@
             </div>
         </div>
     </header>
-    <div class="container py-5">
+    <div class="container my-3">
+        <div class="header-title">VỊNH HẠ LONG</div>
+
         <div class="row">
-      
-          <div class="col-lg-3 col-md-4 mb-4">
-            <p class="category-title">Product Category</p>
-            <ul class="category-menu">
-              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/tour.html" >All</a></li>
-              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/mienbac.html">Miền Bắc</a></li>
-              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/mientrung.html" class="active">Miền Trung</a></li>
-              <li><a href="file:///C:/Users/Admin/Desktop/DoannhomLDLbtrap/miennam.html">Miền Nam</a></li>
-            </ul>
-            <hr>
-          </div>
-    
-     
-          <div class="col-lg-9 col-md-8">
-     
-            <div class="filters d-flex justify-content-between">
-              <select class="form-select form-select-sm" style="width: auto;">
-                <option>Default Sorting</option>
-                <option>Price Low to High</option>
-                <option>Price High to Low</option>
-              </select>
-              <select class="form-select form-select-sm" style="width: auto;">
-                <option>Show</option>
-                <option>4</option>
-                <option>8</option>
-              </select>
-            </div>
-    
-            <div class="row mt-4">
-       
-              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="product-card position-relative">
-                  <img src="./imgs/banahills-hoian-danang.jpg" alt="Ba Na Hills - Hội An">
-                  <span class="hot-tag">HOT</span>
-                  <div class="p-3">
-                    <p class="product-name">Ba Na Hills - Hội An</p>
-                    <p class="product-price">10,000,000 VNĐ</p>
-                  </div>
+            <div class="col-lg-8">
+                <div class="main-image">
+                    <img src="./imgs/0105_con_dao-5.jpg" alt="VINHHALONG">
                 </div>
-              </div>
-    
-          
-              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="product-card position-relative">
-                  <img src="./imgs/du-lich-tam-coc-bich-dong.jpg" alt="Khu du lịch Tam Cốc – Bích Động">
-                  <span class="hot-tag">HOT</span>
-                  <div class="p-3">
-                    <a href="./tamcoctour.html" style="text-decoration: none; color: black;"<p class="product-name">Khu du lịch Tam Cốc – Bích Động</p></a>
-                    <p class="product-price">1,000,000 VNĐ</p>
-                  </div>
-                </div>
-              </div>
-    
-      
-              
             </div>
-          </div>
+            <div class="col-lg-4">
+                <div class="tour-info">
+                    <h4>Giới thiệu</h4>
+                    <p><strong>Địa chỉ:</strong> Bà Rịa-Vũng Tàu</p>
+                    <label for="transport">Di chuyển:</label>
+                    <select id="transport" class="form-select mb-3">
+                        <option value="car">Xe du lịch</option>
+                    </select>
+                    <label for="quantity">Số lượng người tối đa:</label>
+                    <input id="quantity" type="number" class="form-control mb-3" value="10" min="1">
+                    <h4 class="text-danger">GIÁ: 7,000,000 VNĐ</h4>
+                    <a href="./bookcondao.html"><button class="btn btn-primary btn-book">Đặt Tour</button></a>
+                </div>
+            </div>
         </div>
-      </div>    
-      <footer class="footer text-white py-4">
+
+        <div class="section-title">1. Bật mí một xíu về vườn quốc gia Côn Đảo</div>
+        <p>
+            Vườn quốc gia Côn Đảo nằm trong hệ thống rừng đặc dụng của Việt Nam, thuộc huyện Côn Đảo, tỉnh Bà Rịa - Vũng Tàu. VQG
+Côn Đảo thuộc quần đảo Côn Đảo và nằm cách cửa sông Hậu (Cần Thơ) khoảng 83km, cách TP. Vũng Tàu khoảng 185km và
+cách TP. Hồ Chí Minh khoảng 250km. Quần đảo Côn Đảo hiện có 16 đảo nhỏ, lớn nhất là đảo Côn Sơn và VQG Côn Đảo cũng tọa
+lạc tại đây. Đảo Côn Sơn chính là điểm đến du lịch nổi tiếng được rất nhiều du khách ghé thăm.
+        </p>
+        <div class="content-image">
+            <img src="./imgs/top-10-dia-diem-du-lich-con-dao-hap-dan-nhat-ban-khong-the-bo-qua-202310201505524026.jpg" alt="Cảnh Tam Cốc">
+        </div>
+
+        <div class="section-title">2. Thời điểm lý tưởng để đến vườn quốc gia Côn Đảo</div>
+        <p>
+            Cảnh quan tại vườn quốc gia Côn Đảo sẽ biến đổi cực kỳ đa dạng tuỳ vào từng mùa. Để hợp cho việc du lịch, du khách nên chọn
+đi vào giai đoạn từ tháng 3 đến tháng 9 nha, lúc này trời mưa khá ít, biển êm, gió nhỏ nên rất phù hợp để tham quan các đảo ở xa
+hay tham gia lặn biển, chụp ảnh.
+        </p>
+        <p>
+            <strong> Tháng 7 đến tháng 9</strong> sẽ là giai đoạn rùa biển sinh sản nên sẽ cực kỳ thú vị để khám phá. Còn từ tháng 10 đến tháng 3 năm sau sẽ là
+            mùa gió chướng, lúc này vịnh biển Côn Sơn hay có sóng lớn nhưng tại phía Tây và Tây Nam đảo lớn thì biển vẫn êm, trời không mưa
+            nên không ảnh hưởng đến hoạt động du lịch nhé.
+        </p>
+        <div class="content-image">
+            <img src="./imgs/VnExpress-Con-Dao-Bai-Nhat-302-6175-9460-1656727024.jpg" alt="Thuyền ở Tam Cốc">
+        </div>
+    </div>
+    <footer class="footer text-white py-4">
         <div class="container">
           <div class="row">
       
